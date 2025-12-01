@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Fotogalería | Ecosistemas Del Estado De Sonora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La galería de fotos de Ecosistemas Del Estado De Sonora, una ventana a su riqueza natural.">
+  <link rel="icon" href="https://www.yoremiacalificaciones.com/wp-content/uploads/cobach-colegio-de-bachillerato-sonora.webp">
+  <style>
+    :root {
+      --verde-oscuro: #236a2e;
+      --verde-medio: #43a047;
+      --verde-claro: #b9f6ca;
+      --gris-fondo: #f4fbe8;
+      --texto: #184d29;
+    }
+    body {
+      font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+      background: var(--gris-fondo);
+      color: var(--texto);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, var(--verde-oscuro) 60%, var(--verde-medio));
+      color: white;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 auto 1rem auto;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 6px #155b23aa;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    nav li {
+      display: inline;
+    }
+    nav a {
+      color: var(--verde-claro);
+      background: transparent;
+      padding: 8px 18px;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: background .3s, color .3s;
+      font-weight: 500;
+    }
+    nav a:hover {
+      background: var(--verde-claro);
+      color: var(--verde-oscuro);
+      box-shadow: 0 2px 8px #43a04733;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 18px #43a04730;
+    }
+    section {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--verde-claro);
+    }
+    section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    h2 {
+      color: var(--verde-oscuro);
+      font-size: 2rem;
+    }
+    h3 {
+      color: var(--verde-medio);
+      margin-top: 0.5rem;
+    }
+    a {
+      color: var(--verde-medio);
+      text-decoration: underline;
+      transition: color .3s;
+    }
+    a:hover {
+      color: var(--verde-oscuro);
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    iframe {
+      border-radius: 8px;
+      border: 2px solid var(--verde-claro);
+      margin-top: 1rem;
+    }
+    footer {
+      background: var(--verde-oscuro);
+      color: var(--verde-claro);
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    footer a {
+      color: var(--verde-claro);
+      text-decoration: underline;
+    }
+    .vsc {
+      color: #43a047;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 1.08em;
+      display: block;
+      margin-top: .8em;
+    }
+    /* Estilos específicos para la galería */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 3 columnas en desktop, se ajusta en móvil */
+      gap: 15px;
+      margin-top: 2rem;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: 150px; /* Altura fija para un look uniforme */
+      object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+      border: 4px solid var(--verde-medio);
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .gallery-grid img:hover {
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+    @media (max-width: 700px) {
+      main {
+        margin: 1rem;
+        padding: .8rem;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 8px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+      .gallery-grid {
+        grid-template-columns: 1fr; /* Una columna en móvil */
+      }
+      .gallery-grid img {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ecosistemas Del Estado De Sonora</h1>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="Ecosistemas existentes.html">Ecosistemas existentes</a></li>
+        <li><a href="Tipos de ecosistemas.html">Tipos de ecosistemas</a></li>
+        <li><a href="Nuestro trabajo.html">Nuestro Trabajo</a></li>
+        <li><a href="Fotogalería.html">Fotogalería</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Fotogalería</h2>
+      <p>
+        La galería de fotos de Ecosistemas Del Estado De Sonora es una ventana hacia la riqueza natural que se encuentra en este hermoso estado mexicano. A través de una cuidadosa selección de imágenes, se muestra la diversidad de ecosistemas que existen en esta región, desde los desiertos y montañas hasta las playas y lagunas.
+      </p>
+
+      <div class="gallery-grid">
+        <img src="https://58fc57f349.cbaul-cdnwnd.com/eaa2cdd9a7f6d6d93cbba49439668aa5/200000048-c7a3ec7a40/700/OIP%20%286%29-5.webp?ph=58fc57f349" alt="Vista del Desierto de Sonora 1">
+        <img src="https://58fc57f349.cbaul-cdnwnd.com/eaa2cdd9a7f6d6d93cbba49439668aa5/200000052-8052580527/700/OIP%20%2810%29.webp?ph=58fc57f349" alt="Flora del ecosistema desértico">
+        <img src="https://58fc57f349.cbaul-cdnwnd.com/eaa2cdd9a7f6d6d93cbba49439668aa5/200000050-b4248b424a/700/OIP%20%289%29.webp?ph=58fc57f3490" alt="Paisaje de la sierra sonorense">
+        <img src="https://58fc57f349.cbaul-cdnwnd.com/eaa2cdd9a7f6d6d93cbba49439668aa5/200000018-10d3110d32/images-pexels-com-photos-1812962-pexels-photo-1812962-auto-compress-cs-tinysrgb-dpr-2-h-650-w-940.webp?ph=58fc57f349" alt="Fauna nativa de Sonora">
+        <img src="https://58fc57f349.cbaul-cdnwnd.com/eaa2cdd9a7f6d6d93cbba49439668aa5/200000054-c620ec6210/700/iglesia-inmaculada-concepcion.webp?ph=58fc57f349" alt="Atardecer en una playa de Sonora">
+        <img src="https://58fc57f349.cbaul-cdnwnd.com/eaa2cdd9a7f6d6d93cbba49439668aa5/200000056-bd83abd83d/R%20%281%29.webp?ph=58fc57f349" alt="Detalle de una laguna o humedal">
+      </div>
+      
+    </section>
+
+    <section>
+      <h2>Explora y Conéctate</h2>
+      <p>Te invitamos a visitar estos hermosos lugares y a contribuir a su conservación. Haz clic en las imágenes para verlas en detalle.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado con <a href="https://code.visualstudio.com/" rel="noopener nofollow" target="_blank">Visual Studio Code</a></p>
+    <span class="vsc">Esta web fue editada y creada por Silvana Agundez y el grupo 103 Matutino usando Visual Studio Code.</span>
+    <p><a href="#">Cookies</a></p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ecosistemas existentes :: Ecosistemas Del Estado De Sonora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ecosistemas existentes en Sonora">
+  <link rel="icon" href="https://www.yoremiacalificaciones.com/wp-content/uploads/cobach-colegio-de-bachillerato-sonora.webp">
+  <style>
+    /* VARIABLES DE COLOR TOMADAS DE UNTITLED-1.HTML */
+    :root {
+      --verde-oscuro: #236a2e;
+      --verde-medio: #43a047;
+      --verde-claro: #b9f6ca;
+      --gris-fondo: #f4fbe8;
+      --texto: #184d29;
+      --color-borde: #b9f6ca; /* Usado para separar secciones */
+    }
+    /* ESTILOS GENERALES Y LAYOUT */
+    body {
+      font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+      background: var(--gris-fondo);
+      color: var(--texto);
+      margin: 0;
+      padding: 0;
+    }
+    /* HEADER: Gradiente y Estilo de Texto */
+    header {
+      background: linear-gradient(90deg, var(--verde-oscuro) 60%, var(--verde-medio));
+      color: white;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 auto 1rem auto;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 6px #155b23aa;
+    }
+    /* NAV: Estilo de Links y Posicionamiento */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    nav li {
+      display: inline;
+    }
+    nav a {
+      color: var(--verde-claro);
+      background: transparent;
+      padding: 8px 18px;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: background .3s, color .3s;
+      font-weight: 500;
+    }
+    nav a.active, nav a:hover { /* Estilo para el link activo o al pasar el mouse */
+      background: var(--verde-claro);
+      color: var(--verde-oscuro);
+      box-shadow: 0 2px 8px #43a04733;
+    }
+    /* MAIN CONTAINER */
+    main {
+      max-width: 900px; /* Ancho ajustado para mejor visualización de imágenes */
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 18px #43a04730;
+    }
+    /* SECTIONS */
+    section {
+      margin-bottom: 3rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--color-borde);
+    }
+    section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    h2 {
+      color: var(--verde-oscuro);
+      font-size: 2rem;
+      border-left: 5px solid var(--verde-medio);
+      padding-left: 10px;
+      margin-bottom: 1.5rem;
+    }
+    h3 {
+      color: var(--verde-medio);
+      margin-top: 0.5rem;
+      font-size: 1.5rem;
+    }
+    /* DISEÑO DE COLUMNAS PARA ECOSISTEMAS */
+    .ecosistema-card {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .ecosistema-card.reversed {
+        flex-direction: row-reverse; /* Alternar imagen y texto */
+    }
+    .ecosistema-card .text-content {
+      flex: 1;
+    }
+    .ecosistema-card .image-content {
+      flex-basis: 40%;
+      min-width: 250px;
+    }
+    .ecosistema-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 3px solid var(--verde-medio);
+      box-shadow: 0 4px 10px rgba(35, 106, 46, 0.2); /* Sombra con color primario */
+    }
+    /* GANADERÍA - Estilo de Bloque */
+    .ganaderia-block {
+        padding: 30px;
+        background: var(--verde-claro);
+        border-radius: 10px;
+        border: 1px solid var(--verde-medio);
+    }
+    .ganaderia-block h2 {
+        border-left-color: var(--verde-oscuro);
+    }
+    /* FOOTER: Estilos requeridos */
+    footer {
+      background: var(--verde-oscuro);
+      color: var(--verde-claro);
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    footer a {
+      color: var(--verde-claro);
+      text-decoration: underline;
+    }
+    .vsc {
+      color: #43a047;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 1.08em;
+      display: block;
+      margin-top: .8em;
+    }
+    /* MEDIA QUERIES */
+    @media (max-width: 768px) {
+      .ecosistema-card {
+        flex-direction: column;
+      }
+      .ecosistema-card.reversed {
+        flex-direction: column; /* Deshacer la inversión en móvil */
+      }
+      .ecosistema-card .image-content {
+        min-width: 100%;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 8px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ecosistemas Del Estado De Sonora</h1>
+    <nav>
+      <ul>
+          <li><a href="inicio.html">Inicio</a>
+         <li><a href="Ecosistemas existentes.html">Ecosistemas existentes</a>
+         <li><a href="Tipos de ecosistemas.html">Tipos de ecosistemas</a>
+        <li><a href="Nuestro trabajo.html">Nuestro Trabajo</a></li>
+        <li><a href="Fotogalería.html">Fotogalería</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section>
+      <h2>Ecosistemas existentes en Sonora</h2>
+      <p>
+        En sonora hay una variedad infinita de ecosistemas, pero lo que más abunda es el desértico y el marino. Sin embargo, también hay una variedad más particular como bosques, praderas, selvas bajas y manglares.
+      </p>
+      <p>
+        Nuestro enfoque es promover el aprendizaje de estos mismos ecosistemas para poder tener en cuenta su cuidado y protección.
+      </p>
+    </section>
+
+    <section>
+      <div class="ganaderia-block">
+        <h2>Ganadería en el estado</h2>
+        <p>La ganadería en Sonora es una actividad histórica y fundamental que se remonta al siglo XVI, con el padre Eusebio Francisco Kino como uno de sus precursores.</p>
+        
+        <p>Este estado se ha consolidado como uno de los principales productores ganaderos de México, destacándose por la calidad de sus productos, que no solo abastecen el mercado nacional, sino que también tienen presencia internacional.</p>
+        
+        <p>Además de su relevancia económica, la ganadería sonorense impulsa el desarrollo social y rural, generando empleos y fortaleciendo las comunidades locales. Su tradición y excelencia en la producción la convierten en un símbolo de fortaleza para el campo mexicano.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Creado con <a href="https://code.visualstudio.com/" rel="noopener nofollow" target="_blank">Visual Studio Code</a></p>
+    <span class="vsc">Esta web fue editada y creada por Silvana Agundez y el grupo 103 Matutino usando Visual Studio Code.</span>
+    <p><a href="#">Cookies</a></p>
+  </footer>
+
+</body>
+</html>

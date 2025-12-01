@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Tipos de ecosistemas :: Ecosistemas Del Estado De Sonora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tipos de ecosistemas del Estado de Sonora">
+  <link rel="icon" href="https://www.yoremiacalificaciones.com/wp-content/uploads/cobach-colegio-de-bachillerato-sonora.webp">
+  <style>
+    /* VARIABLES DE COLOR - Tomadas de Untitled-1.html */
+    :root {
+      --verde-oscuro: #236a2e;
+      --verde-medio: #43a047;
+      --verde-claro: #b9f6ca;
+      --gris-fondo: #f4fbe8;
+      --texto: #184d29;
+      --color-borde: #b9f6ca;
+    }
+    /* ESTILOS GENERALES Y LAYOUT */
+    body {
+      font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+      background: var(--gris-fondo);
+      color: var(--texto);
+      margin: 0;
+      padding: 0;
+    }
+    /* HEADER: Gradiente y Estilo de Texto */
+    header {
+      background: linear-gradient(90deg, var(--verde-oscuro) 60%, var(--verde-medio));
+      color: white;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 auto 1rem auto;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 6px #155b23aa;
+    }
+    /* NAV: Estilo de Links y Posicionamiento */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    nav li {
+      display: inline;
+    }
+    nav a {
+      color: var(--verde-claro);
+      background: transparent;
+      padding: 8px 18px;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: background .3s, color .3s;
+      font-weight: 500;
+    }
+    nav a.active, nav a:hover { /* Estilo para el link activo o al pasar el mouse */
+      background: var(--verde-claro);
+      color: var(--verde-oscuro);
+      box-shadow: 0 2px 8px #43a04733;
+    }
+    /* MAIN CONTAINER */
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 18px #43a04730;
+    }
+    /* SECTIONS */
+    section {
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--color-borde);
+    }
+    section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    h2 {
+      color: var(--verde-oscuro);
+      font-size: 2rem;
+      border-left: 5px solid var(--verde-medio);
+      padding-left: 10px;
+      margin-bottom: 1.5rem;
+    }
+    /* DISEÑO PARA CADA TIPO DE ECOSISTEMA */
+    .ecosistema-detalle {
+        display: flex;
+        gap: 25px;
+        align-items: flex-start;
+        margin-bottom: 40px;
+        padding: 20px;
+        background: #fcfcfc;
+        border-radius: 8px;
+        border: 1px solid var(--verde-claro);
+    }
+    .ecosistema-detalle.reversed {
+        flex-direction: row-reverse; /* Alternar imagen y texto */
+        background: #f4fbe8;
+    }
+    .ecosistema-detalle .text-content {
+      flex: 1;
+    }
+    .ecosistema-detalle h3 {
+      color: var(--verde-medio);
+      font-size: 1.6rem;
+      margin-top: 0;
+    }
+    .ecosistema-detalle .image-content {
+      flex-basis: 35%;
+      min-width: 200px;
+    }
+    .ecosistema-detalle img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      border: 2px solid var(--verde-oscuro);
+    }
+    /* FOOTER: Estilos requeridos */
+    footer {
+      background: var(--verde-oscuro);
+      color: var(--verde-claro);
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    footer a {
+      color: var(--verde-claro);
+      text-decoration: underline;
+    }
+    .vsc {
+      color: #43a047;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 1.08em;
+      display: block;
+      margin-top: .8em;
+    }
+    /* MEDIA QUERIES */
+    @media (max-width: 768px) {
+      .ecosistema-detalle, .ecosistema-detalle.reversed {
+        flex-direction: column;
+      }
+      .ecosistema-detalle .image-content {
+        min-width: 100%;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 8px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+ <header>
+    <h1>Ecosistemas Del Estado De Sonora</h1>
+    <nav>
+      <ul>
+          <li><a href="inicio.html">Inicio</a>
+         <li><a href="Ecosistemas existentes.html">Ecosistemas existentes</a>
+         <li><a href="Tipos de ecosistemas.html">Tipos de ecosistemas</a>
+        <li><a href="Nuestro trabajo.html">Nuestro Trabajo</a></li>
+        <li><a href="Fotogalería.html">Fotogalería</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tipos de ecosistemas</h2>
+      <p>
+        Aquí presentamos los tipos de ecosistemas del Estado de Sonora, con un gran orgullo de vivir en él.
+      </p>
+    </section>
+
+    <div class="ecosistema-detalle">
+        <div class="text-content">
+            <h3>🌵 Desierto</h3>
+            <p>El desierto de Sonora, también conocido como desierto de Gila, abarca aproximadamente 311,000 km². Es uno de los desiertos más cálidos y extensos del mundo, con temperaturas que pueden superar los 38°C en verano. Se extiende por Sonora en México y Arizona y California en Estados Unidos.</p>
+        </div>
+        <div class="image-content">
+            <img src="https://www.meteorologiaenred.com/wp-content/uploads/2022/09/desierto-de-sonora.jpg" alt="Paisaje del Desierto de Sonora con Sahuaro">
+        </div>
+    </div>
+
+    <div class="ecosistema-detalle reversed">
+        <div class="text-content">
+            <h3>🌳 Bosques</h3>
+            <p>Los bosques del estado de Sonora son caracterizados por una rica biodiversidad y una variedad de ecosistemas, principalmente bosques de encinos, bosques de pino encino, y bosques de coníferas en las partes altas de las sierras. La vegetación incluye especies maderables como el pino y el pino blanco, y el encino para leña.</p>
+        </div>
+        <div class="image-content">
+            <img src="https://www.natureandculture.org/wp-content/uploads/2023/01/Deciduous-Alamos.webp" alt="Bosque de pino y encino en la sierra de Sonora">
+        </div>
+    </div>
+
+    <div class="ecosistema-detalle">
+        <div class="text-content">
+            <h3>🌊 Marino</h3>
+            <p>El ecosistema marino del estado de Sonora se caracteriza por su rica biodiversidad y su ubicación en el Golfo de California. Incluye 36 lagunas costeras, cruciales para la reproducción y crianza de mamíferos, aves, reptiles, peces e invertebrados. Su conservación es fundamental para mantener la salud del ecosistema.</p>
+        </div>
+        <div class="image-content">
+            <img src="https://www.bigfish.mx/__export/1703804119172/sites/debate/img/2023/12/28/lobomarino_2.jpg_673822677.jpg" alt="Vida marina en el Golfo de California">
+        </div>
+    </div>
+
+    <div class="ecosistema-detalle reversed">
+        <div class="text-content">
+            <h3>🌾 Praderas</h3>
+            <p>Las praderas del estado de Sonora se caracterizan por su diversidad ecológica y su adaptación a condiciones áridas. La flora incluye cactáceas como el saguaro y pitahaya, matorrales y arbustos que han evolucionado para sobrevivir con escasa precipitación, contribuyendo a la flora única de la región.</p>
+        </div>
+        <div class="image-content">
+            <img src="https://i0.wp.com/ecosistemas.ovacen.com/wp-content/uploads/2018/01/praderas.jpg?fit=812%2C462&ssl=1" alt="Pradera y pastizales de Sonora">
+        </div>
+    </div>
+
+    <div class="ecosistema-detalle">
+        <div class="text-content">
+            <h3>🌴 Selva Baja</h3>
+            <p>La selva baja es un ecosistema de vegetación densa y exuberante donde los árboles pierden sus hojas durante la época seca (caducifolia). Se encuentra en la vertiente del Pacífico, con un clima cálido y húmedo, y es fundamental para la conservación de la flora y fauna locales, albergando una gran cantidad de especies endémicas.</p>
+        </div>
+        <div class="image-content">
+            <img src="https://explorasonora.com/wp-content/uploads/2022/09/14102276_1073248419379082_302222092045110794_n.jpg" alt="Selva baja caducifolia en temporada de lluvias">
+        </div>
+    </div>
+    
+    <div class="ecosistema-detalle reversed">
+        <div class="text-content">
+            <h3>🌿 Manglares</h3>
+            <p>Los manglares en Sonora son ecosistemas clave que desempeñan un papel fundamental en la mitigación del cambio climático. Se encuentran en 24 lagunas costeras (abarcando ~60,000 hectáreas). Son vitales para la biodiversidad y para la captura de carbono, aunque enfrentan amenazas como la contaminación y la urbanización.</p>
+        </div>
+        <div class="image-content">
+            <img src="https://d2r4pvg3gvir7a.cloudfront.net/wp-content/uploads/2023/07/Manglares-de-Huatabampo-en-Sonora.jpg" alt="Sistema de raíces de manglares en estero">
+        </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Creado con <a href="https://code.visualstudio.com/" rel="noopener nofollow" target="_blank">Visual Studio Code</a></p>
+    <span class="vsc">Esta web fue editada y creada por Silvana Agundez y el grupo 103 Matutino usando Visual Studio Code.</span>
+    <p><a href="#">Cookies</a></p>
+  </footer>
+
+</body>
+</html>
